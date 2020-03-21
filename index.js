@@ -10,7 +10,7 @@ let logger = require('./logger.js');
 
 let devices = new Map();
 
-const searchType1 = 'urn:av-openhome-org:service:Product:1';
+const searchType1 = 'urn:linn-co-uk:device:Source:1';
 const searchType2 = 'urn:av-openhome-org:service:Product:2';
 
 let parseUuid = usn => (/uuid:(.*)?::.*/).exec(usn)[1];
