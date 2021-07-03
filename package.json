@@ -1,6 +1,6 @@
 {
   "name": "openhome-devices-manager",
-  "version": "0.1.4",
+  "version": "0.2.1",
   "description": "Discover, announce and provide simple control of Openhome, Linn Ds and other Upnp compatible devices via MQTT",
   "author": "Barry John Williams <barry@bjw.me.uk>",
   "readme": "README.md",
@@ -12,9 +12,10 @@
   "dependencies": {
     "async": "^0.9.0",
     "binary": "^0.3.0",
+    "github": "^14.0.0",
     "ip": "*",
     "lodash": "^4.17.21",
-    "node-upnp-ssdp": "~0.0.3",
+    "node-upnp-ssdp": "github:kirayatail/node-ssdp#0.1.2",
     "parsexmlresponse": "0.0.3",
     "uuid": "^3.0.0",
     "winston": "^1.0.0",
