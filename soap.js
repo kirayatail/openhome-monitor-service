@@ -13,7 +13,7 @@ function soapRequest(deviceUrlRoot, path, service, fnName, fnParams, callback) {
     bodyString += '  </s:Body>';
     bodyString += '</s:Envelope>';
 
-    var buffer = new Buffer(bodyString);
+    var buffer = new Buffer.from(bodyString);
 
     var params = {
         host: deviceUrl.hostname,

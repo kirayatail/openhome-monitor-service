@@ -2,7 +2,7 @@
 
 let ssdp = require("node-upnp-ssdp");
 let http = require('http');
-let _ = require('underscore');
+let _ = require('lodash');
 let url = require('url');
 let Ds = require('./ds.js').Ds;
 let responseParser = require('parsexmlresponse');

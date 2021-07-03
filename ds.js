@@ -28,7 +28,7 @@ function toTrack(callback) {
 }
 function binaryIdArrayToIntList(callback) {
     return function (err, data) {
-        let buffer = new Buffer(data['s:Envelope']['s:Body']['u:IdArrayResponse'].Array, 'base64');
+        let buffer = new Buffer.from(data['s:Envelope']['s:Body']['u:IdArrayResponse'].Array, 'base64');
         let arrayList = [];
         let binaryList = binary.parse(buffer);
         _.each(_.range(buffer.length / 4), function () {
