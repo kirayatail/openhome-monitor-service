@@ -15,7 +15,7 @@
     "github": "^14.0.0",
     "ip": "*",
     "lodash": "^4.17.21",
-    "node-upnp-ssdp": "github:kirayatail/node-ssdp#0.1.2",
+    "node-upnp-ssdp": "git+https://github.com/kirayatail/node-ssdp.git#0.1.2",
     "parsexmlresponse": "0.0.3",
     "uuid": "^3.0.0",
     "winston": "^1.0.0",
